@@ -34,7 +34,8 @@ main {
 	overflow: hidden;
 	padding-left: 7px;
 	padding-right: 7px;
-	width: 100%
+	width: 100%;
+	position: relative;
 }
 
 .main-title {
@@ -922,6 +923,7 @@ line-height: 10vw;
 	display: none
 }
 
+main .blue-lineTrack,
 .header_component_4 .blue-lineTrack {
 	background: linear-gradient(202deg, #75D1C6 17.73%, #1B8F81 83.75%);
 	height: 6.5420560748vw;
@@ -932,6 +934,30 @@ line-height: 10vw;
 	z-index: 1
 }
 
+main .blue-lineTrack{
+	top: 167vw;
+	left: 0;
+	z-index: 9;
+}
+
+@media(min-width: 500px){
+	main .blue-lineTrack{
+		top: 162vw;
+		left: 0;
+		z-index: 9;
+	}
+}
+
+@media(min-width: 700px){
+	main .blue-lineTrack{
+		top: 158vw;
+		left: 0;
+		z-index: 9;
+	}
+}
+
+main .blue-lineTrack,
+main .blue-lineTrack-row,
 .header_component_4 .blue-lineTrack,
 .header_component_4 .blue-lineTrack-row {
 	align-items: center;
@@ -939,7 +965,7 @@ line-height: 10vw;
 	display: -ms-flexbox;
 	display: flex
 }
-
+main .blue-lineTrack-row,
 .header_component_4 .blue-lineTrack-row {
 	animation: conveyorMove 40s linear infinite;
 	gap: 10px
@@ -954,7 +980,7 @@ line-height: 10vw;
 		transform: translate(-50%)
 	}
 }
-
+main .blue-lineTrack h3,
 .header_component_4 .blue-lineTrack h3 {
 	color: #fff;
 	font-size: 3.738317757vw;
@@ -964,6 +990,7 @@ line-height: 10vw;
 	white-space: nowrap
 }
 
+main .blue-lineTrack img,
 .header_component_4 .blue-lineTrack img {
 	height: 3.738317757vw;
 	-o-object-fit: contain;
@@ -2162,6 +2189,7 @@ line-height: 109%;
     }
 
     .s-new-2-section {
+		padding: 0;
         background: radial-gradient(circle at 50% 50%, #13443a 0%, #000 60%);
     }
 
@@ -2262,6 +2290,7 @@ line-height: 109%;
 		display: none
 	}
 
+	main .blue-lineTrack,
 	.header_component_4 .blue-lineTrack {
 		background: linear-gradient(202deg, #75D1C6 17.73%, #1B8F81 83.75%);
 		height: 2.8444444444vw;
@@ -2271,6 +2300,12 @@ line-height: 109%;
 		top: 23.2%;
 		width: 102%;
 		z-index: -3
+	}
+
+	main .blue-lineTrack{
+		z-index: 9;
+		top: 70vw;
+		transform: rotate(-1deg);
 	}
 
 	.header-elements{
@@ -2302,15 +2337,18 @@ line-height: 109%;
 		bottom: -25%;
 	}
 
+	main .blue-lineTrack-row h3,
 	.header_component_4 .blue-lineTrack-row {
 		animation: conveyorMove 50s linear infinite;
 		gap: 10px
 	}
 
+	main .blue-lineTrack h3,
 	.header_component_4 .blue-lineTrack h3 {
 		font-size: 1.4222222222vw
 	}
 
+	main .blue-lineTrack img,
 	.header_component_4 .blue-lineTrack img {
 		height: 1.4222222222vw;
 		width: 1.4222222222vw
@@ -4433,5 +4471,7 @@ line-height: 109%;
 	.popup-content {
 		transform: scale(1.2)
 	}
-
+	main .blue-lineTrack{
+		top: 68vw;
+	}
 }
