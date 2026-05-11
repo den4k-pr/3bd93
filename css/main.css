@@ -2129,7 +2129,7 @@ line-height: 109%;
 		overflow: visible;
 		overflow: initial;
 		padding: 50px 2.2429906542vw 2.2429906542vw;
-		width: 64.8888888889vw;
+		width: 68.8888888889vw;
 		height: 70vw;
 		background: transparent;
 	}
@@ -2211,7 +2211,7 @@ line-height: 109%;
 		width: 30vw;
         position: absolute;
         right: 0%;
-        top: 77%;
+        top: 79%;
 	}
 	.header_component_4 .discount-body {
 		height: 11.0222222222vw;
@@ -3213,6 +3213,12 @@ line-height: 109%;
 	font-size: 0;
 	height: 2.3364485981vw;
 	width: 7.0093457944vw
+}
+
+@media (min-width: 160px) {
+    .header_component_4 .discount-continer {
+        top: 77%;
+    }
 }
 
 @media(min-width:900px) {
@@ -4290,10 +4296,6 @@ line-height: 109%;
 	.popup-content {
 		transform: scale(1.2)
 	}
-
-	.header_component_4 .discount-continer{
-        top: 75%;
-	}
 }
 
 @media(min-height:1000px) {
@@ -4307,7 +4309,4 @@ line-height: 109%;
 		transform: scale(1.2)
 	}
 
-	.header_component_4 .discount-continer{
-        top: 73%;
-	}
 }
