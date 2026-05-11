@@ -2031,7 +2031,131 @@ line-height: 109%;
         font-size: 1.5vw;
     }
 }
+
+.solution-section {
+    width: 100vw;
+    padding: 10vw 0;
+    background-color: #000;
+}
+
+.container-solution {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8vw;
+}
+
+.column-title {
+    font-size: 7vw;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5vw;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.solution-accent {
+    color: #73DBC3;
+}
+
+/* Обгортки для карток з фоном */
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+	min-width: 100%;
+	height: 125vw;
+    background-repeat: no-repeat;
+}
+
+.problems-bg {
+    background-image: url('../assets/images/itemsList-1.webp');
+	background-size: contain;
+    padding: 0vw 0 0 0;
+    gap: 6.5vw;
+}
+
+.solution-bg {
+    background-image: url('../assets/images/itemsList-2.webp');
+	background-size: contain;
+
+    padding: 4vw 0 0 0;
+    gap: 7vw;
+}
+
+/* Самі блоки тексту всередині фонових "слотів" */
+.text-card {
+    height: 18.2vw; /* Висота одного слота на картинці */
+    display: flex;
+    align-items: center;
+    padding-left: 28vw; /* Відступ, щоб текст не налізав на картинки у фоні */
+    padding-right: 4vw;
+}
+
+.text-card p {
+    font-size: 3.2vw;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+/* --- PC VERSION --- */
 @media (min-width: 900px) {
+    .container-solution {
+        width: 64.8888888889vw;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2vw;
+    }
+
+	.solution-section{
+		padding: 5vw 0;
+	}
+
+    .solution-column {
+        width: 48%; /* Дві колонки поруч */
+    }
+
+    .column-title {
+        font-size: 2.2vw;
+        margin-bottom: 2vw;
+        height: 5vw; /* Щоб заголовки були в один рівень */
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+	.cards-wrapper{
+		    height: 42vw;
+	}
+
+    .text-card {
+        height: 6vw; /* Висота слота на десктопі */
+        padding-left: 11vw; /* На десктопі іконки зліва займають менше місця відносно ширини */
+        padding-right: 1.5vw;
+    }
+
+    .text-card p {
+        font-size: 1.02vw;
+    }
+
+
+	.problems-bg {
+    gap: 2.7vw;
+	background-size: 100% 100%;
+}
+
+.solution-bg {
+    padding: 1.4vw 0 0 0;
+    gap: 2.4vw;
+	background-size: 100% 100%;
+}
+}
+@media (min-width: 900px) {
+	.fdbdf{
+		transform: translateY(0.4vw);
+	}
     .s-new-2-container {
         width: 63.3333333333vw;
         margin: 0 auto;
@@ -3215,11 +3339,12 @@ line-height: 109%;
 	width: 7.0093457944vw
 }
 
-@media (min-width: 160px) {
+@media (min-width: 1600px) {
     .header_component_4 .discount-continer {
         top: 77%;
     }
 }
+
 
 @media(min-width:900px) {
 
