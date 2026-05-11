@@ -1744,8 +1744,8 @@ line-height: 109%;
 			.bubble::after{
 				width: 5vw;
 				height: 5vw;
-				right: -1vw;
-				bottom: -1.4vw;
+				right: -0.9vw;
+				bottom: -1.35vw;
 				position: absolute;
 			}
 
