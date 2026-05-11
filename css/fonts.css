@@ -1,0 +1,89 @@
+@font-face {
+    font-display: swap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../assets/fonts/bebasneuethin.woff2) format("woff2"), url(../assets/fonts/bebasneuethin.woff) format("woff"), url(../assets/fonts/bebasneuethin.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: ActayWide;
+    font-style: normal;
+    font-weight: 100;
+    src: url('https://itden-cdn.b-cdn.net/ActayWide-Bold.otf') format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../assets/fonts/bebasneuelight.woff2) format("woff2"), url(../assets/fonts/bebasneuelight.woff) format("woff"), url(../assets/fonts/bebasneuelight.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 350;
+    src: url(../assets/fonts/bebasneuebook.woff2) format("woff2"), url(../assets/fonts/bebasneuebook.woff) format("woff"), url(../assets/fonts/bebasneuebook.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/bebasneueregular.woff2) format("woff2"), url(../assets/fonts/bebasneueregular.woff) format("woff"), url(../assets/fonts/bebasneueregular.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/bebasneuebold.woff2) format("woff2"), url(../assets/fonts/bebasneuebold.woff) format("woff"), url(../assets/fonts/bebasneuebold.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: LeagueGothic-Regular;
+    font-weight: 400;
+    src: url(../assets/fonts/LeagueGothic-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: DrukCyr-bold;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../assets/fonts/DrukCyr-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: DrukCyr-medium;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/DrukCyr-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    src: url(../assets/fonts/Montserrat-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    src: url(../assets/fonts/Montserrat-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Songer Condensed;
+    font-weight: 400;
+    src: url(../assets/fonts/SONGERCondensed.woff2) format("woff2"), url(../assets/fonts/SONGERCondensed.woff) format("woff")
+}
