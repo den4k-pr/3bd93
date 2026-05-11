@@ -2254,7 +2254,7 @@ line-height: 109%;
 		overflow: initial;
 		padding: 50px 2.2429906542vw 2.2429906542vw;
 		width: 68.8888888889vw;
-		height: 70vw;
+		height: 70vw !important;
 		background: transparent;
 	}
 
