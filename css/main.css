@@ -2729,7 +2729,7 @@ line-height: 109%;
 		gap: 20px;
 		justify-content: space-between;
 		left: 50%;
-		padding: .4444444444vw;
+		padding: .4444444444vw 2.5vw;
 		position: fixed;
 		top: 5%;
 		transform: translate(-50%);
@@ -2804,7 +2804,7 @@ line-height: 109%;
 		font-weight: 500;
 		height: 2.3466666667vw;
 		justify-content: center;
-		padding: 0 20px;
+		padding: 0 1vw;
 		transition: background .3s, border-color .3s, color .3s;
 		white-space: nowrap;
 	}
