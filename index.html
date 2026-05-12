@@ -1076,7 +1076,7 @@ Usual stretching gets you loose but doesn't help with strength
                 LIMITED  DROP
             </h3>
             <p class="footer-timer-n">
-                <span>233 /</span> 300
+                <span id="count">299</span><span> /</span> 300
             </p>
             <h3 class="footer-title-n">
                 BOXES LEFT
@@ -1127,6 +1127,41 @@ Usual stretching gets you loose but doesn't help with strength
             <img src="./assets/images/cards.webp" alt="Payment Methods" class="contacts__payments">
         </section>
 </div>
+<div id="count"></div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const startValue = 300;
+
+    const startDate = new Date("2026-05-13");
+    const endDate   = new Date("2026-06-05");
+
+    const now = new Date();
+    const countEl = document.getElementById("count");
+
+    // якщо раніше старту → максимум
+    if (now <= startDate) {
+        countEl.textContent = startValue;
+        return;
+    }
+
+    // якщо після кінця → нуль
+    if (now >= endDate) {
+        countEl.textContent = 0;
+        return;
+    }
+
+    const total = endDate - startDate;     // весь період
+    const passed = now - startDate;        // скільки пройшло
+
+    const progress = passed / total;       // 0 → 1
+
+    const value = Math.round(startValue * (1 - progress));
+
+    countEl.textContent = value;
+});
+</script>
 <script src="https://zbl-crm.com/click-event.js" type="text/javascript"></script>
 <script>
    document.addEventListener("DOMContentLoaded", function() {
