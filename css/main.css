@@ -1903,7 +1903,8 @@ line-height: 109%;
 }
 
 .item-card {
-    background: rgba(48, 48, 48, 0.482);
+    box-shadow: 0 16px 22px 0 rgba(0, 0, 0, 0.16);
+background: rgba(0, 0, 0, 0.31);
     border-radius: 5vw;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 4vw;
@@ -3240,7 +3241,7 @@ line-height: 109%;
 	border-radius: 5.6074766355vw;
     border: 1px solid rgba(255, 255, 255, 0.218);
 	background: rgba(255, 255, 255, 0.10);
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.18);
+box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.18);
 	gap: 3.5046728972vw;
 	margin-bottom: 9.3457943925vw;
 	margin-top: 2.3364485981vw;
@@ -3303,8 +3304,7 @@ line-height: 109%;
 }
 
 .modules_component-slider-slide {
-	border: 1px solid rgba(255, 255, 255, 0.218);
-	background: rgba(255, 255, 255, 0.10);
+	background: linear-gradient(171deg, #353333 -18.27%, #000 53.27%, #353333 124.81%);
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.18);
 	border-radius: 5.6074766355vw;
 	padding: 3.2710280374vw;
