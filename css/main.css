@@ -782,6 +782,10 @@ background: #A8ACAC;
 	width: 74.7663551402vw;
 	color: #61F3DE;
 	margin-top: 1vw;
+	animation-name: slowPulse;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite
 }
 
 .footer-title-n{
@@ -839,7 +843,7 @@ line-height: 10vw;
 
 .header_component_4 {
 	overflow: hidden;
-	padding: 3.5046728972vw;
+	padding: 3.5046728972vw 0;
 	height: 192vw;
 	position: relative;
     background: linear-gradient(180deg, #052723 0%, #031412 20.94%, #000 35.47%, #031412 71.7%, #052723 100%);
@@ -935,14 +939,14 @@ main .blue-lineTrack,
 }
 
 main .blue-lineTrack{
-	top: 167vw;
+	top: 152vw;
 	left: 0;
 	z-index: 9;
 }
 
 @media(min-width: 500px){
 	main .blue-lineTrack{
-		top: 162vw;
+		top: 152vw;
 		left: 0;
 		z-index: 9;
 	}
@@ -1428,6 +1432,7 @@ main .blue-lineTrack img,
 	display: flex;
 	align-items: center;
 	justify-content: center;	
+	transform: scale(0.9);
 }
 
 .header_component_4 .discount-container-info{
@@ -1437,7 +1442,7 @@ main .blue-lineTrack img,
 	margin-right: -7vw;
 	padding: 5vw 7vw;
 	border-radius: 11vw 0 0 11vw;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.265);
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.18);
    color: #fff;
 }
@@ -1700,7 +1705,7 @@ line-height: 109%;
         }
 
         /* Мобільні позиції (Image 1) */
-        .row-1 { justify-content: flex-start; }
+        .row-1 { justify-content: flex-start;}
         .row-1 .img-box { right: -2vw; bottom: 0vw; width: 32vw; }
 
         .row-2 { justify-content: flex-end; margin-top: 2vw; }
@@ -1711,6 +1716,9 @@ line-height: 109%;
 
         /* DESKTOP VERSION (Image 2) */
         @media (min-width: 900px) {
+			.row-1{
+				padding-top: 0vw;
+			}
             .s-new-1 {
                 width: 63.3333333333vw;
                 max-width: 63.3333333333vw;
@@ -2304,7 +2312,7 @@ line-height: 109%;
 
 	main .blue-lineTrack{
 		z-index: 9;
-		top: 70vw;
+		top: 65vw;
 		transform: rotate(-1deg);
 	}
 
@@ -2374,6 +2382,7 @@ line-height: 109%;
         position: absolute;
         right: 0%;
         top: 79%;
+		transform: scale(1);
 	}
 	.header_component_4 .discount-body {
 		height: 11.0222222222vw;
@@ -3289,6 +3298,20 @@ line-height: 109%;
 	width: 27.3364485981vw
 }
 
+.table-text-n{
+	color: #ffffff98;
+    text-align: center;
+    font-size: 2.7vw;
+    max-width: 65vw;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.table-text-n span{
+	color: #FFF;
+}
 .modules_component-slider-slide-bottom img {
 	width: 3.738317757vw
 }
@@ -3385,6 +3408,11 @@ line-height: 109%;
 
 
 @media(min-width:900px) {
+
+	.table-text-n {
+		font-size: 1.4vw;
+		max-width: 39vw;
+	}
 
 	.orders-elements {
 		align-items: center;
@@ -3706,6 +3734,7 @@ line-height: 109%;
 	position: absolute;
 	top: 9%;
     width: 25.037383vw;
+	transition: all .3s;
 }
 
 .roadmap365_component-elements .elements-line-desc {
@@ -4136,7 +4165,6 @@ line-height: 109%;
 	}
 
 	.tableCards_component .first-element:nth-child(2) {
-		background-color: #ffb169;
 		padding: 2.5555555556vw;
 		text-align: left
 	}
@@ -4470,9 +4498,6 @@ line-height: 109%;
 @media(min-width:1650px) {
 	.popup-content {
 		transform: scale(1.2)
-	}
-	main .blue-lineTrack{
-		top: 68vw;
 	}
 }
 
