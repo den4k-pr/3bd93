@@ -2290,7 +2290,7 @@ line-height: 109%;
 		overflow: initial;
 		padding: 50px 2.2429906542vw 2.2429906542vw;
 		width: 68.8888888889vw;
-		height: 70vw !important;
+		height: 73vw !important;
 		background: transparent;
 	}
 
@@ -2345,7 +2345,7 @@ line-height: 109%;
 		bottom: -25%;
 	}
 
-	main .blue-lineTrack-row h3,
+	main .blue-lineTrack-row,
 	.header_component_4 .blue-lineTrack-row {
 		animation: conveyorMove 50s linear infinite;
 		gap: 10px
@@ -2423,7 +2423,7 @@ line-height: 109%;
 		order: 1;
 		position: absolute;
 		right: 2%;
-		top: 23%;
+		top: 25%;
 		width: 100%;
 		
 	}
@@ -2659,7 +2659,7 @@ line-height: 109%;
 		position: fixed;
 		top: 5%;
 		transform: translate(-50%);
-		width: 53.3333333333vw;
+		width: 60vw;
 		z-index: 99
 	}
 
@@ -2733,7 +2733,6 @@ line-height: 109%;
 		padding: 0 20px;
 		transition: background .3s, border-color .3s, color .3s;
 		white-space: nowrap;
-		width: 5vw
 	}
 
 	.header_component_4 .content-navigations-list-link.active {
@@ -2765,7 +2764,7 @@ line-height: 109%;
 	.header_component_4 .header-video-container {
 		border-radius: 3.3333333333vw;
 		margin-bottom: 4%;
-		margin-top: 2.6666666667vw;
+		margin-top: 4.6666666667vw;
 		padding: .2444444444vw
 	}
 
@@ -3581,7 +3580,7 @@ line-height: 109%;
 
 .questions .label {
 	align-items: center;
-	background: linear-gradient(150deg, #61F3DE, #2f7dff);
+	background: linear-gradient(202deg, #75D1C6 17.73%, #1B8F81 83.75%);
 	border-radius: 11px;
 	box-shadow: 0 2px 27px #00000029;
 	display: -webkit-box;
