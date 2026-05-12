@@ -2606,7 +2606,7 @@ line-height: 109%;
 	}
 
 	.header_component_4 .content-mid-box-title {
-		color: aqua;
+		color: #61F3DE;;
 		font-size: 1.308vw;
 		display: block;
 		margin-left: auto;
@@ -2733,7 +2733,7 @@ line-height: 109%;
 		position: fixed;
 		top: 5%;
 		transform: translate(-50%);
-		width: 60vw;
+		width: 66vw;
 		z-index: 99
 	}
 
